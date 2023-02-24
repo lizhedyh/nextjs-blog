@@ -7,7 +7,7 @@ import { getSortedPostsData } from '../lib/posts';
 import utilStyles from '@/styles/utils.module.css';
 
 
-export default function Home({ allPostsData }) {
+export default function Home({ allPostsData }: {allPostsData: []}) {
   return (
     <>
       <Head>
